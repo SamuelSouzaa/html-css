@@ -114,7 +114,7 @@ main > img{
 main  h1{
     color: var(--cor5);
     font-family: var(--font-android);
-    margin-top: 105px;
+    
 }
 main h2 {
     font-family: var(--font-android);

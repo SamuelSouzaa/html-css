@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça um escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, eveniet praesentium quam commodi delectus eligendi, quidem totam nesciunt nemo eum fuga quo tempora unde cum ab vel, corporis quibusdam? Perferendis?</p>
+
+    <ul>
+        <li><a href="tabela006.html" target="tela">Primeira página</a></li>
+        <li><a href="tabela005.html" target="tela">Segunda página</a></li>
+        <li><a href="tabela004.html" target="tela">Terceira página</a></li>
+    </ul>
+
+    <iframe id="tela" name="tela" srcdoc="<h1>Carregando Conteúdo no Iframe pelo srcdoc</h1><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nihil ipsum tenetur unde commodi laborum nemo ipsam adipisci vero mollitia suscipit delectus harum optio possimus quia, eos rerum, omnis laudantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias praesentium hic, nobis officia inventore suscipit saepe delectus ad iste neque temporibus non, officiis nesciunt illo facilis? Nesciunt nostrum ad cupiditate.</p>" frameborder="0">
+        <p>Infelizmente seu navegador não é compatível!</p>
+    </iframe>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nihil ipsum tenetur unde commodi laborum nemo ipsam adipisci vero mollitia suscipit delectus harum optio possimus quia, eos rerum, omnis laudantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias praesentium hic, nobis officia inventore suscipit saepe delectus ad iste neque temporibus non, officiis nesciunt illo facilis? Nesciunt nostrum ad cupiditate.</p>
+</body>
+</html>
